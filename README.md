@@ -5,7 +5,7 @@
 Install
 
 ```sh
-npm add resp-express
+npm install resp-express
 
 or
 
