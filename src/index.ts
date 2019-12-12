@@ -40,6 +40,17 @@ class VerifyAndReturns {
   public returnErrorObject (res: Response, object: object): Response {
     return res.status(400).json(object)
   }
+
+  /**
+   *
+   * @description Return error: code informed and message
+   * @param res
+   * @param code
+   * @param message
+   */
+  public returnErrorCode (res: Response, code: number, message: string): Response {
+    return res.status(code).json({ error: message })
+  }
 }
 
 export default new VerifyAndReturns()
