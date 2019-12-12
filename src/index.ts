@@ -44,9 +44,9 @@ class VerifyAndReturns {
   /**
    *
    * @description Return error: code informed and message
-   * @param res
-   * @param code
-   * @param message
+   * @param res Response Express Interface
+   * @param code HTTP Error Code
+   * @param message Error Message
    */
   public returnErrorCode (res: Response, code: number, message: string): Response {
     return res.status(code).json({ error: message })

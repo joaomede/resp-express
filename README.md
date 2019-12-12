@@ -1,5 +1,7 @@
 # Resp Express
 
+[![NPM Version][npm-image]][npm-url]
+
 ### A lib to facilitate express responses
 
 Install
