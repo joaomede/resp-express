@@ -1,10 +1,12 @@
 # Resp Express
 
 [![Build Status](https://travis-ci.com/joaomede/resp-express.svg?branch=master)](https://travis-ci.com/joaomede/resp-express)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![npm](https://img.shields.io/npm/v/resp-express)
+![npm bundle size (version)](https://img.shields.io/bundlephobia/min/resp-express/1.0.2)
+![GitHub repo size](https://img.shields.io/github/repo-size/joaomede/resp-express)
 
-### A lib to facilitate express responses
-
-Install
+### Install
 
 ```sh
 npm install resp-express
