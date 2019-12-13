@@ -1,6 +1,6 @@
 # Resp Express
 
-[![NPM Version][npm-image]][npm-url]
+[![Build Status](https://travis-ci.org/joaomede/resp-express.svg?branch=master)](https://travis-ci.org/joaomede/resp-express)
 
 ### A lib to facilitate express responses
 

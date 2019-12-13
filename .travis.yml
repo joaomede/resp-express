@@ -1,11 +1,11 @@
 language: node_js
-os: [ "linux" ],
+os: "linux",
 node_js:
   - "9.11"
   - "10.15"
   - "11.15"
   - "12.3"
-jobs:
+matrix:
   include:
     - node_js: "13"
       env: "NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/nightly"
