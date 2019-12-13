@@ -1,5 +1,4 @@
 language: node_js
-os: "linux",
 node_js:
   - "9.11"
   - "10.15"
@@ -12,6 +11,7 @@ matrix:
   allow_failures:
     # Allow the nightly installs to fail
     - env: "NVM_NODEJS_ORG_MIRROR=https://nodejs.org/download/nightly"
+sudo: false
 cache:
   directories:
     - node_modules
