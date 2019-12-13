@@ -1,6 +1,6 @@
 # Resp Express
 
-[![Build Status](https://travis-ci.org/joaomede/resp-express.svg?branch=master)](https://travis-ci.org/joaomede/resp-express)
+[![Build Status](https://travis-ci.com/joaomede/resp-express.svg?branch=master)](https://travis-ci.com/joaomede/resp-express)
 
 ### A lib to facilitate express responses
 
