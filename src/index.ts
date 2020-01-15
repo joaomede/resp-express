@@ -1,10 +1,10 @@
 import { Response } from 'express'
 
 /**
- * @name VerifyAndReturns
+ * @name RespExpress
  * @description Contains methods with encapsulated returns to facilitate expressed responses.
  */
-class VerifyAndReturns {
+class RespExpress {
   /**
    * @description Return sucess: code 200 and message sucess.
    * @param res Response Express Interface
@@ -42,6 +42,16 @@ class VerifyAndReturns {
   }
 
   /**
+   * @description Return Object: code and object
+   * @param res Response Express Interface
+   * @param code HTTP Code
+   * @param object Object to return
+   */
+  public returnObjectWithCode (res: Response, code: number, object: object): Response {
+    return res.status(code).json(object)
+  }
+
+  /**
    *
    * @description Return error: code informed and message
    * @param res Response Express Interface
@@ -51,6 +61,16 @@ class VerifyAndReturns {
   public returnErrorCode (res: Response, code: number, message: string): Response {
     return res.status(code).json({ error: message })
   }
+
+  /**
+   * @description Return Sucess: code informed and message
+   * @param res Response Express Interface
+   * @param code HTTP Sucess Code
+   * @param message Sucess Message
+   */
+  public returnSucessCode (res: Response, code: number, message: string): Response {
+    return res.status(code).json({ ok: message })
+  }
 }
 
-export default new VerifyAndReturns()
+export default new RespExpress()
