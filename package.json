@@ -1,6 +1,6 @@
 {
   "name": "resp-express",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A lib to facilitate express responses",
   "main": "./lib/index.js",
   "scripts": {
