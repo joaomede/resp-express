@@ -1,9 +1,13 @@
 language: node_js
 node_js:
-  - "9.11"
-  - "10.15"
-  - "11.15"
   - "12.3"
+
+# safelist
+branches:
+  only:
+  - master
+  - dev
+
 matrix:
   include:
     - node_js: "13"
