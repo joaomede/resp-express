@@ -2,6 +2,7 @@
 
 [![CI](https://travis-ci.com/joaomede/resp-express.svg?branch=master)](https://travis-ci.com/joaomede/resp-express)
 ![CI](https://github.com/joaomede/resp-express/workflows/CI/badge.svg?branch=master)
+[![codecov](https://codecov.io/gh/joaomede/resp-express/branch/master/graph/badge.svg)](https://codecov.io/gh/joaomede/resp-express)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![npm](https://img.shields.io/npm/v/resp-express)
 ![npm bundle size (version)](https://img.shields.io/bundlephobia/min/resp-express/1.0.2)
