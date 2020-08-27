@@ -1,16 +1,17 @@
 module.exports = {
   globals: {
-    "ts-jest": {
+    'ts-jest': {
       isolatedModules: true,
-      tsConfig: "tsconfig.json"
+      tsConfig: 'tsconfig.json'
     }
   },
-  testEnvironment: "node",
-  testMatch: ["<rootDir>/__tests__/**/*.(test|spec).(ts|tsx|js)"],
+  testEnvironment: 'node',
+  testMatch: ['<rootDir>/__tests__/**/*.(test|spec).(ts|tsx|js)'],
   coveragePathIgnorePatterns: [
-    "<rootDir>/test/helpers/",
-    "<rootDir>/node_modules/"
+    '<rootDir>/test/helpers/',
+    '<rootDir>/node_modules/'
   ],
   clearMocks: true,
-  preset: "ts-jest"
-};
+  collectCoverage: true,
+  preset: 'ts-jest'
+}
